@@ -1,4 +1,4 @@
-<a href="http://animations.dev/">
+<a href="https://animations.dev/">
 <img width="320" height="168" alt="opengraph-image-pwu6ef" src="https://github.com/user-attachments/assets/a405a37f-1a1a-4e8d-8fd6-269ee6d4fba6" />
 </a>
 
@@ -18,7 +18,7 @@ So learn to code, design, or develop expertise in any other field. It’s extrem
 
 You’ll build animation expertise here:
 
-[Check out animations.dev](http://animations.dev/)
+[Check out animations.dev](https://animations.dev/)
 
 ## Install
 
@@ -30,11 +30,11 @@ npx skills@latest add emilkowalski/skills
 
 Agents don’t have great taste
 
-I have seen plenty of times that agents don’t pick the right ingredients for an animation. An `ease-in` easing for an enter animation when it’s supposed to be `ease-out` ([here’s why](https://emilkowal.ski/ui/7-practical-animation-tips#4.-choose-the-right-easing)). Or they choose a solid border instead of a semi-transparent shadow. 
+I have seen plenty of times that agents don’t pick the right ingredients for an animation. An `ease-in` easing for an enter animation when it’s supposed to be `ease-out` ([here’s why](https://emilkowal.ski/ui/7-practical-animation-tips#4.-choose-the-right-easing)). Or they choose a solid border instead of a semi-transparent shadow.
 
 All these little things compound and make your interface either amazing, or just... not that great.
 
-As explained in [Agents with Taste](https://emilkowal.ski/ui/agents-with-taste), these skills list all the little mistakes agents can potentially make and explain how to fix them. 
+As explained in [Agents with Taste](https://emilkowal.ski/ui/agents-with-taste), these skills list all the little mistakes agents can potentially make and explain how to fix them.
 
 This is your shortcut to great interfaces. A shortcut to stand out in a sea of slop.
 
@@ -45,4 +45,3 @@ This is your shortcut to great interfaces. A shortcut to stand out in a sea of s
 - **[review-animations](./skills/review-animations/SKILL.md)** — Review your animations in a strict way, based on my rules.
 - **[animation-vocabulary](./skills/animation-vocabulary/SKILL.md)** — Get better animations from an AI by telling it exactly what you want by using the right words.
 - **[apple-design](./skills/apple-design/SKILL.md)** — Apple's principles for interface design and fluid motion, distilled from their WWDC design talks and translated for the web.
-
