@@ -43,5 +43,20 @@ This is your shortcut to great interfaces. A shortcut to stand out in a sea of s
 
 - **[emil-design-eng](./skills/emil-design-eng/SKILL.md)** — The main skill that consinsts of mostly animation, but also some design advice.
 - **[review-animations](./skills/review-animations/SKILL.md)** — Review your animations in a strict way, based on my rules.
+- **[improve-animations](./skills/improve-animations/SKILL.md)** — Audit all the animations in your codebase and get prioritized, self-contained plans that any agent can execute.
 - **[animation-vocabulary](./skills/animation-vocabulary/SKILL.md)** — Get better animations from an AI by telling it exactly what you want by using the right words.
-- **[apple-design](./skills/apple-design/SKILL.md)** — Apple’s principles for interface design and fluid motion, distilled from their WWDC design talks and translated for the web.
+- **[apple-design](./skills/apple-design/SKILL.md)** — Apple's principles for interface design and fluid motion, distilled from their WWDC design talks and translated for the web.
+
+### Improve animations
+
+Inspired by [shadcn/improve](https://github.com/shadcn/improve): use your most capable model for the part where taste compounds. Understanding your codebase's motion, judging what's worth fixing, writing the spec — and hand execution to any agent, even a cheaper model.
+
+`improve-animations` surveys your whole codebase (not a single diff), audits it across eight categories (purpose & frequency, easing & duration, physicality, interruptibility, performance, accessibility, cohesion, missed opportunities), and presents a prioritized findings table. Pick the ones you want, and it writes self-contained plans into `plans/` — exact files, exact curves, exact durations, plus a feel check — that another agent can execute without any context or taste of its own. It never touches your source code itself.
+
+```
+> improve the animations in this codebase
+> improve-animations quick        # hotspots only
+> improve-animations performance  # one category
+> improve-animations plan add press feedback to all buttons
+> improve-animations execute plans/001-fix-dropdown-easing.md
+```
